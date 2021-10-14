@@ -1,0 +1,51 @@
+
+
+.logincontainer{
+    
+    justify-content: center;
+    justify-items: center;
+    background-color:white;
+    width: 40vw;
+    height: 60vh;
+    margin-left: 30vw;
+    margin-top: 20vh;
+    border-style: groove;
+}
+.logincontainer h1 {
+    text-align: center;
+    color:purple;
+    font-family: fangsong;
+}
+.container1{
+    width: 35vw;
+    height: 45vh;
+    margin: auto;   
+    
+
+}
+.title{
+    height: 60px;
+    width: 100%;
+}
+.container1 ul li{
+    margin-left: 40px;
+    list-style-type: none;
+    
+}
+.inputFields{
+    margin-top: 20px;
+}
+input{
+    width: 85%;
+    padding: 7px 9px;
+    margin: 0px 0;
+    border-radius: 10px;
+}
+ul button{
+    width: 85%;
+    padding: 7px 9px;
+    margin: 0px 0;
+    border-radius: 10px;
+    background-color: purple;
+    color: white;
+}
