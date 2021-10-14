@@ -1,4 +1,7 @@
-
+*{
+    margin: 0;
+    padding: 0;
+}
 
 .logincontainer{
     
@@ -10,6 +13,7 @@
     margin-left: 30vw;
     margin-top: 20vh;
     border-style: groove;
+    border-radius: 10px;
 }
 .logincontainer h1 {
     text-align: center;
@@ -36,16 +40,19 @@
     margin-top: 20px;
 }
 input{
-    width: 85%;
+    width: 70%;
     padding: 7px 9px;
-    margin: 0px 0;
-    border-radius: 10px;
+    margin: 0px 35px;
+    border-radius: 10px
 }
 ul button{
-    width: 85%;
+    width: 75%;
     padding: 7px 9px;
-    margin: 0px 0;
+    margin: 0px 35px;
     border-radius: 10px;
     background-color: purple;
     color: white;
+}
+ul button:hover{
+    cursor: pointer;
 }
