@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
 }
-
+#firstPage{
+    background-color: grey;
+}
 .logincontainer{
     
     justify-content: center;
@@ -34,7 +36,9 @@
 .container1 ul li{
     margin-left: 40px;
     list-style-type: none;
-    
+}
+#smalltxt{
+    color: grey;
 }
 .inputFields{
     margin-top: 20px;
@@ -43,7 +47,7 @@ input{
     width: 70%;
     padding: 7px 9px;
     margin: 0px 35px;
-    border-radius: 10px
+    /* border-radius: 10px */
 }
 ul button{
     width: 75%;
