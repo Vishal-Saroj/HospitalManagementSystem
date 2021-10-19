@@ -273,3 +273,19 @@ body{
 
 
 /* //Appointment History */
+
+.appointmentHistory{
+    margin-left: 100px;
+    background-color: white;
+    font-family: cursive;
+    
+    margin: 10px 10px 0 40px;
+}
+.grids{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 100px;
+    color: grey;
+    font-size: 20px;
+    margin: 10px;
+}
