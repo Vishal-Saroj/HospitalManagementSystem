@@ -15,7 +15,7 @@
           <img src="../profile1.png" alt="" srcset="" />
           <h3>admin 🌻</h3>
         </div>
-        <span class="menulines" onclick="opensidebar(),shiftSection()"
+        <span class="menulines" onclick="opensidebar(),shiftSection(),appointment()"
           >&#9776;</span
         >
       </div>
@@ -29,7 +29,7 @@
       <a
         href="javascript:void(0)"
         class="closebtn"
-        onclick="closesidebar(), rShiftSection()"
+        onclick="closesidebar(), rShiftSection(),rAppointment()"
         >&times;</a
       >
       <a href="#">❀ Dashboard</a>
@@ -126,7 +126,7 @@
 
       <!-- //Appointment Section -->
 
-    <section class="appointmentHistory">
+    <section id="appointment" class="appointmentHistory">
         <h1>Todays Patients ✔</h1>
         <hr>
      
@@ -160,6 +160,12 @@
       };
       const rShiftSection = () => {
         document.getElementById("sectionId").style.marginLeft = "70px";
+      };
+      const appointment = () => {
+        document.getElementById("appointment").style.marginLeft = "300px";
+      };
+      const rAppointment = () => {
+        document.getElementById("appointment").style.marginLeft = "40px";
       };
     </script>
   </body>
