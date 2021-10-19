@@ -88,6 +88,8 @@ ul button:hover{
     margin-left: 70px;
     margin-right: 20px;
 }
+
+/* //Sidebar */
 .sidebar{
     height:100%;
     width: 0px;
@@ -151,6 +153,8 @@ body{
 .dashboardHeading sup:hover{
     color: turquoise;
 }
+
+/* //Cards from here */
 /* .card{
     position: relative;
     top: 20px;
@@ -266,3 +270,6 @@ body{
     cursor: pointer;
     /* margin:40px; */
   }
+
+
+/* //Appointment History */
