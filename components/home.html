@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HMS</title>
+  </head>
+  <link rel="stylesheet" href="../style.css" />
+  <body>
+    <header>
+      <div class="navbar">
+        <div class="brandlogo">Hospital Management System</div>
+        <span class="menulines" onclick="opensidebar(),shiftSection()"
+          >&#9776;</span
+        >
+      </div>
+    </header>
+    <div id="mysidebar" class="sidebar">
+      <div class="profile">
+        <img src="../img5.png" alt="" srcset="" />
+        <h1>Profile</h1>
+      </div>
+
+      <a
+        href="javascript:void(0)"
+        class="closebtn"
+        onclick="closesidebar(), rShiftSection()"
+        >&times;</a
+      >
+      <a href="#">Dashboard</a>
+      <a href="#">Administration</a>
+      <a href="#">Registration</a>
+      <a href="#">Vaccination</a>
+      <a href="#">Laboratory</a>
+      <a href="#">Discharge Summary</a>
+    </div>
+    <section id="sectionId" class="mainpart">
+      <div class="dashboardHeading">
+      <h1>Dashboard</h1>
+      <h4>Overview</h4>
+      </div>
+
+      <div class="cards">
+        <div class="card">
+          <div class="card-image"></div>
+          <div class="card-text">
+            <span class="date">4 days ago</span>
+            <h2>Post One</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, Ducimus, repudiandae
+              temporibus omnis illum maxime quod deserunt eligendi dolor
+            </p>
+          </div>
+          <div class="card-stats">
+            <div class="stat">
+              <div class="value">4<sup>m</sup></div>
+              <div class="type">read</div>
+            </div>
+            <div class="stat border">
+              <div class="value">5123</div>
+              <div class="type">views</div>
+            </div>
+            <div class="stat">
+              <div class="value">32</div>
+              <div class="type">comments</div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image"></div>
+          <div class="card-text">
+            <span class="date">4 days ago</span>
+            <h2>Post One</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, Ducimus, repudiandae
+              temporibus omnis illum maxime quod deserunt eligendi dolor
+            </p>
+          </div>
+          <div class="card-stats">
+            <div class="stat">
+              <div class="value">4<sup>m</sup></div>
+              <div class="type">read</div>
+            </div>
+            <div class="stat border">
+              <div class="value">5123</div>
+              <div class="type">views</div>
+            </div>
+            <div class="stat">
+              <div class="value">32</div>
+              <div class="type">comments</div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image"></div>
+          <div class="card-text">
+            <span class="date">4 days ago</span>
+            <h2>Post One</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, Ducimus, repudiandae
+              temporibus omnis illum maxime quod deserunt eligendi dolor
+            </p>
+          </div>
+          <div class="card-stats">
+            <div class="stat">
+              <div class="value">4<sup>m</sup></div>
+              <div class="type">read</div>
+            </div>
+            <div class="stat border">
+              <div class="value">5123</div>
+              <div class="type">views</div>
+            </div>
+            <div class="stat">
+              <div class="value">32</div>
+              <div class="type">comments</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      const opensidebar = () => {
+        document.getElementById("mysidebar").style.width = "300px";
+      };
+      const closesidebar = () => {
+        document.getElementById("mysidebar").style.width = "0px";
+      };
+      const shiftSection = () => {
+        document.getElementById("sectionId").style.marginLeft = "300px";
+      };
+      const rShiftSection = () => {
+        document.getElementById("sectionId").style.marginLeft = "70px";
+      };
+    </script>
+  </body>
+</html>
